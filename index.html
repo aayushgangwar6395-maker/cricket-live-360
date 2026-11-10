@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CRICKET LIVE 360</title>
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#08111f;color:#f5f7fb}
+header{padding:24px 18px;background:linear-gradient(135deg,#073b2a,#0b7650);border-bottom:3px solid #b5f36b}
+.brand{font-size:26px;font-weight:900;letter-spacing:.5px}.tag{color:#d4f7df;margin-top:6px;font-size:13px}
+nav{display:flex;gap:8px;padding:12px;overflow:auto;background:#101d30;position:sticky;top:0}
+nav a{color:#dce7f5;text-decoration:none;background:#20314a;padding:10px 14px;border-radius:20px;white-space:nowrap;font-size:14px}
+main{max-width:760px;margin:auto;padding:16px}.hero{padding:20px;border-radius:18px;background:linear-gradient(130deg,#172c45,#123d34);margin:8px 0 18px}
+h1{font-size:24px;margin:0 0 8px}.muted{color:#aebbd0;font-size:13px;line-height:1.5}
+.card{background:#142238;border:1px solid #2b405c;border-radius:16px;padding:16px;margin:12px 0}
+.row{display:flex;justify-content:space-between;gap:10px;align-items:center}.live{color:#b7ff75;font-weight:bold;font-size:12px}
+.score{font-size:23px;font-weight:800;margin:12px 0 4px}.teams{font-weight:700}.pill{display:inline-block;background:#263c56;padding:6px 10px;border-radius:20px;font-size:12px;color:#d5e5f8}
+button{background:#b7f36b;color:#102016;border:0;border-radius:10px;padding:11px 15px;font-weight:800}
+a.button{display:inline-block;background:#b7f36b;color:#102016;text-decoration:none;border-radius:10px;padding:12px 15px;font-weight:800;margin:6px 6px 0 0}
+footer{text-align:center;padding:24px;color:#91a1b8;font-size:12px}
+</style>
+</head>
+<body>
+<header><div class="brand">🏏 CRICKET LIVE 360</div><div class="tag">Your cricket hub • Scores • Fixtures • Official watch links</div></header>
+<nav><a href="#home">Home</a><a href="#matches">Matches</a><a href="#scores">Scores</a><a href="#watch">Watch</a></nav>
+<main id="home">
+<section class="hero"><h1>Cricket, all in one place.</h1><div class="muted">Follow match updates, browse fixtures and visit official broadcasters. Live score data will appear here after a score API is connected.</div></section>
+<section id="matches"><h2>Matches</h2><div class="card"><div class="row"><span class="pill">DEMO FIXTURE</span><span class="muted">Schedule example</span></div><p class="teams">India vs Australia</p><div class="muted">Match schedule will be updated when a cricket data API is configured.</div></div></section>
+<section id="scores"><h2>Score centre</h2><div class="card"><div class="row"><span class="teams">Live scores</span><span class="pill">API NOT CONNECTED</span></div><div class="score">No live score feed yet</div><div class="muted">This page currently shows a demo layout. Add an authorized cricket scores API to display real scores. Do not publish secret API keys in this file.</div></div></section>
+<section id="watch"><h2>Watch cricket</h2><div class="card"><p class="muted">Watch only through services that have the rights to stream your match.</p><a class="button" href="https://www.jiohotstar.com/" target="_blank" rel="noopener">JioHotstar</a><a class="button" href="https://www.espncricinfo.com/" target="_blank" rel="noopener">ESPNcricinfo</a></div></section>
+</main>
+<footer>CRICKET LIVE 360 • Fan-made information page. Not affiliated with any cricket board or broadcaster.</footer>
+</body></html>
